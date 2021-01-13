@@ -27,7 +27,6 @@ mvn clean install
 killTomcat
 
 # 删除原有工程
-rm -rf $TOMCAT_APP_PATH/webapps/ROOT
 rm -f $TOMCAT_APP_PATH/webapps/ROOT.war
 rm -f $TOMCAT_APP_PATH/webapps/order.war
 
